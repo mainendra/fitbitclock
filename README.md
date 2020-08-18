@@ -14,4 +14,4 @@ Fitbit versa 2 clock face
 
 # Screens
 
-![screen1](./screen1.png)
+![screen1](./screen1.png =100x)
