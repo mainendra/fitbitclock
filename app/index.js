@@ -11,6 +11,7 @@ clock.granularity = 'minutes'; // seconds, minutes, hours
 
 clock.ontick = function(evt) {
     let hours = evt.date.getHours();
+    const ampmStr = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
     hours = hours ? hours: 12; // 0 means noon
     const minutes = (`0${evt.date.getMinutes()}`).slice(-2);
@@ -19,5 +20,5 @@ clock.ontick = function(evt) {
     const day = evt.date.getDay();
     dayDate.text = `${dayNames[day]}, ${month}/${date}`;
     time.text = `${hours}:${minutes}`;
-    amPM.text = hours >= 12 ? 'PM' : 'AM';
+    amPM.text = ampmStr;
 };
