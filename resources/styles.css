@@ -1,6 +1,6 @@
-.defaultText {
+.viewport {
   font-size: 32;
-  font-family: System-Regular;
+  font-family: Tungsten-Medium;
   font-weight: regular;
   text-length: 32;
 }
@@ -8,5 +8,32 @@
 #background {
   width: 100%;
   height: 100%;
-  fill: transparent;
+  fill: black;
+}
+
+#time {
+    fill: white;
+    font-size: 180;
+    text-length: 20;
+    text-anchor: middle;
+    x: 50%;
+    y: 50%+60;
+}
+
+#day-date {
+    font-family: System-Bold;
+    fill: white;
+    text-length: 20;
+    text-anchor: middle;
+    x: 50%;
+    y: 32;
+}
+
+#am-pm {
+    font-family: System-Bold;
+    fill: white;
+    text-length: 20;
+    text-anchor: middle;
+    x: 50%;
+    y: 100%-20;
 }

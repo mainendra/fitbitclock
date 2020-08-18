@@ -1,3 +1,5 @@
-<svg>
-  <rect id="background" />
+<svg class="viewport" viewport-fill="black">
+  <text id="day-date"></text>
+  <text id="time"></text>
+  <text id="am-pm"></text>
 </svg>
