@@ -14,4 +14,4 @@ Fitbit versa 2 clock face
 
 # Screens
 
-<img src="./screen1.png" width="100">
+<img src="./screen1.png" width="150">
